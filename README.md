@@ -3,6 +3,10 @@
   <h1 align="center">Isle of Dogs</h1>
 </p>
 
+![](https://img.shields.io/badge/iOS-15.0+-blue.svg)
+![](https://img.shields.io/badge/Xcode-15.0+-blue.svg)
+![](https://img.shields.io/badge/-Swift-red.svg)
+
 Isle of Dogs - an app displaying asynchronous saved dogs in a RESTful Service. After displaying, the data is saved to the device; then the next time, the user opens the app, the data displayed is the one that has been saved. Used database - Core Data. Used - Async Await.
 
 <p align="center">
