@@ -31,9 +31,6 @@
 		66BCC39F2B071A7900531C6E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BCC39E2B071A7900531C6E /* Extensions.swift */; };
 		66BCC3A12B071B0100531C6E /* GeneralConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BCC3A02B071B0100531C6E /* GeneralConstants.swift */; };
 		66BCC3A82B071FF100531C6E /* DogsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BCC3A72B071FF100531C6E /* DogsCell.swift */; };
-		A4327CAF14E2B12D0D2EBBA6 /* Pods_Konfio_Dogs_Konfio_DogsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A8058F8E08C3B2D3B5D692 /* Pods_Konfio_Dogs_Konfio_DogsUITests.framework */; };
-		C1F32B68752673C6D10FE9FE /* Pods_Konfio_DogsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D6DD6E58645B84EDE9A863 /* Pods_Konfio_DogsTests.framework */; };
-		FF3A1BCAC3067F36A812D43D /* Pods_Konfio_Dogs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50290CC0F262F54348A58652 /* Pods_Konfio_Dogs.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,11 +51,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15D6DD6E58645B84EDE9A863 /* Pods_Konfio_DogsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Konfio_DogsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		228ECB9927439F9538B83D11 /* Pods-Konfio Dogs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Konfio Dogs.debug.xcconfig"; path = "Target Support Files/Pods-Konfio Dogs/Pods-Konfio Dogs.debug.xcconfig"; sourceTree = "<group>"; };
-		23A8058F8E08C3B2D3B5D692 /* Pods_Konfio_Dogs_Konfio_DogsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Konfio_Dogs_Konfio_DogsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50290CC0F262F54348A58652 /* Pods_Konfio_Dogs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Konfio_Dogs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F1CCDA5DC697941C7438415 /* Pods-Konfio Dogs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Konfio Dogs.release.xcconfig"; path = "Target Support Files/Pods-Konfio Dogs/Pods-Konfio Dogs.release.xcconfig"; sourceTree = "<group>"; };
 		66231AD92B0C2E7900FC3E32 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		66231ADB2B0C347800FC3E32 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66231ADC2B0C347800FC3E32 /* FirebaseCoreExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCoreExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,10 +82,6 @@
 		66BCC39E2B071A7900531C6E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		66BCC3A02B071B0100531C6E /* GeneralConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralConstants.swift; sourceTree = "<group>"; };
 		66BCC3A72B071FF100531C6E /* DogsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsCell.swift; sourceTree = "<group>"; };
-		6845F84A2B08459035DE1C6D /* Pods-Konfio Dogs-Konfio DogsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Konfio Dogs-Konfio DogsUITests.release.xcconfig"; path = "Target Support Files/Pods-Konfio Dogs-Konfio DogsUITests/Pods-Konfio Dogs-Konfio DogsUITests.release.xcconfig"; sourceTree = "<group>"; };
-		6FBBFBA697F834B33A730550 /* Pods-Konfio Dogs-Konfio DogsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Konfio Dogs-Konfio DogsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Konfio Dogs-Konfio DogsUITests/Pods-Konfio Dogs-Konfio DogsUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		ABB5437BE82F043BBF158819 /* Pods-Konfio DogsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Konfio DogsTests.release.xcconfig"; path = "Target Support Files/Pods-Konfio DogsTests/Pods-Konfio DogsTests.release.xcconfig"; sourceTree = "<group>"; };
-		E3FA0755404584EA2A013174 /* Pods-Konfio DogsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Konfio DogsTests.debug.xcconfig"; path = "Target Support Files/Pods-Konfio DogsTests/Pods-Konfio DogsTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +89,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF3A1BCAC3067F36A812D43D /* Pods_Konfio_Dogs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,7 +96,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1F32B68752673C6D10FE9FE /* Pods_Konfio_DogsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +103,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4327CAF14E2B12D0D2EBBA6 /* Pods_Konfio_Dogs_Konfio_DogsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,9 +115,6 @@
 				66231ADB2B0C347800FC3E32 /* FirebaseCore.framework */,
 				66231ADC2B0C347800FC3E32 /* FirebaseCoreExtension.framework */,
 				66231ADD2B0C347800FC3E32 /* FirebaseCrashlytics.framework */,
-				50290CC0F262F54348A58652 /* Pods_Konfio_Dogs.framework */,
-				23A8058F8E08C3B2D3B5D692 /* Pods_Konfio_Dogs_Konfio_DogsUITests.framework */,
-				15D6DD6E58645B84EDE9A863 /* Pods_Konfio_DogsTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -256,12 +238,6 @@
 		936F6A4CEF61AF5306F95F97 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				228ECB9927439F9538B83D11 /* Pods-Konfio Dogs.debug.xcconfig */,
-				5F1CCDA5DC697941C7438415 /* Pods-Konfio Dogs.release.xcconfig */,
-				6FBBFBA697F834B33A730550 /* Pods-Konfio Dogs-Konfio DogsUITests.debug.xcconfig */,
-				6845F84A2B08459035DE1C6D /* Pods-Konfio Dogs-Konfio DogsUITests.release.xcconfig */,
-				E3FA0755404584EA2A013174 /* Pods-Konfio DogsTests.debug.xcconfig */,
-				ABB5437BE82F043BBF158819 /* Pods-Konfio DogsTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -273,12 +249,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66BCC3882B06E58E00531C6E /* Build configuration list for PBXNativeTarget "Konfio Dogs" */;
 			buildPhases = (
-				2CF0B1F10FC5A3CCCA0CE8FD /* [CP] Check Pods Manifest.lock */,
 				66BCC35A2B06E58C00531C6E /* Sources */,
 				66BCC35B2B06E58C00531C6E /* Frameworks */,
 				66BCC35C2B06E58C00531C6E /* Resources */,
 				66231AD82B0C2C6800FC3E32 /* ShellScript */,
-				8263B5019294E050AAA5B3A4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -293,7 +267,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66BCC38B2B06E58E00531C6E /* Build configuration list for PBXNativeTarget "Konfio DogsTests" */;
 			buildPhases = (
-				01B1DE85DA9A5C7092830A27 /* [CP] Check Pods Manifest.lock */,
 				66BCC3702B06E58E00531C6E /* Sources */,
 				66BCC3712B06E58E00531C6E /* Frameworks */,
 				66BCC3722B06E58E00531C6E /* Resources */,
@@ -312,11 +285,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66BCC38E2B06E58E00531C6E /* Build configuration list for PBXNativeTarget "Konfio DogsUITests" */;
 			buildPhases = (
-				F0C86AE78935AE56996F2CC8 /* [CP] Check Pods Manifest.lock */,
 				66BCC37A2B06E58E00531C6E /* Sources */,
 				66BCC37B2B06E58E00531C6E /* Frameworks */,
 				66BCC37C2B06E58E00531C6E /* Resources */,
-				EC207CA7EE55BCF0B3FB9202 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -400,50 +371,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		01B1DE85DA9A5C7092830A27 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Konfio DogsTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2CF0B1F10FC5A3CCCA0CE8FD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Konfio Dogs-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		66231AD82B0C2C6800FC3E32 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 8;
@@ -462,62 +389,6 @@
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
-		};
-		8263B5019294E050AAA5B3A4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Konfio Dogs/Pods-Konfio Dogs-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Konfio Dogs/Pods-Konfio Dogs-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Konfio Dogs/Pods-Konfio Dogs-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EC207CA7EE55BCF0B3FB9202 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Konfio Dogs-Konfio DogsUITests/Pods-Konfio Dogs-Konfio DogsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Konfio Dogs-Konfio DogsUITests/Pods-Konfio Dogs-Konfio DogsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Konfio Dogs-Konfio DogsUITests/Pods-Konfio Dogs-Konfio DogsUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F0C86AE78935AE56996F2CC8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Konfio Dogs-Konfio DogsUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -712,7 +583,6 @@
 		};
 		66BCC3892B06E58E00531C6E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 228ECB9927439F9538B83D11 /* Pods-Konfio Dogs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -744,7 +614,6 @@
 		};
 		66BCC38A2B06E58E00531C6E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F1CCDA5DC697941C7438415 /* Pods-Konfio Dogs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -778,7 +647,6 @@
 		};
 		66BCC38C2B06E58E00531C6E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3FA0755404584EA2A013174 /* Pods-Konfio DogsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -799,7 +667,6 @@
 		};
 		66BCC38D2B06E58E00531C6E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABB5437BE82F043BBF158819 /* Pods-Konfio DogsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -820,7 +687,6 @@
 		};
 		66BCC38F2B06E58E00531C6E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FBBFBA697F834B33A730550 /* Pods-Konfio Dogs-Konfio DogsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -839,7 +705,6 @@
 		};
 		66BCC3902B06E58E00531C6E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6845F84A2B08459035DE1C6D /* Pods-Konfio Dogs-Konfio DogsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,6 +1,0 @@
-framework module Pods_Konfio_Dogs_Konfio_DogsUITests {
-  umbrella header "Pods-Konfio Dogs-Konfio DogsUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
