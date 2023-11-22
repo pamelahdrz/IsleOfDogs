@@ -13,7 +13,6 @@ final class DogsDashboardViewModel: NSObject {
     var dogsData = [DogsCellModel]()
     var dogsCoreData = DogsCoreData.shared
     
-    weak var viewController: UIViewController?
     weak var delegate: DogsDashboardViewModelDelegate?
     
     init(delegate: DogsDashboardViewModelDelegate) {
@@ -122,7 +121,7 @@ extension DogsDashboardViewModel {
         }
         alert.addAction(OKAction)
         
-        self.viewController?.navigationController?.present(alert, animated: true, completion: nil)
+        self.delegate?.presentUIAlert(alert)
     }
 }
 

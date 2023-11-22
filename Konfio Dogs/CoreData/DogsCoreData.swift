@@ -19,8 +19,8 @@ final class DogsCoreData {
 extension DogsCoreData {
     
     func getDogsData() async throws -> [DogsModel]? {
-        AppDelegate.container.viewContext.performAndWait {
-            let data = try? DogsEntity.fetchAllData(AppDelegate.container.viewContext)
+        AppDelegate.shared.container.viewContext.performAndWait {
+            let data = try? DogsEntity.fetchAllData(AppDelegate.shared.container.viewContext)
             let dogsData = data?.map { DogsModel(entity: $0) }
             guard let dogs = dogsData else { return nil }
             return dogs
@@ -28,11 +28,11 @@ extension DogsCoreData {
     }
     
     func saveDogsData(for model: DogsModel) {
-        AppDelegate.container.viewContext.perform {
+        AppDelegate.shared.container.viewContext.perform {
             do {
                 try DogsEntity.fetchEntity(
                     for: model,
-                    AppDelegate.container.viewContext
+                    AppDelegate.shared.container.viewContext
                 )
                 AppDelegate.saveContext()
             } catch {

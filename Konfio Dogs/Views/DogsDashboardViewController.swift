@@ -31,7 +31,6 @@ class DogsDashboardViewController: UIViewController {
     
     func setup() {
         self.viewModel = DogsDashboardViewModel(delegate: self)
-        self.viewModel.viewController = self
     }
     
     override func viewDidLoad() {
@@ -71,6 +70,7 @@ class DogsDashboardViewController: UIViewController {
 }
 
 extension DogsDashboardViewController: DogsDashboardViewModelDelegate {
+    
     func hideActivityMonitor(_ isEmpty: Bool) {
         let hide = isEmpty ? false : true
         self.activityIndicator.isHidden = hide
@@ -90,6 +90,10 @@ extension DogsDashboardViewController: DogsDashboardViewModelDelegate {
                 break
             }
         }
+    }
+    
+    func presentUIAlert(_ alert: UIAlertController) {
+        self.navigationController?.present(alert, animated: true, completion: nil)
     }
 }
 

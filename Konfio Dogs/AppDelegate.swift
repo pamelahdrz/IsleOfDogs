@@ -11,6 +11,14 @@ import Firebase
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    static let shared: AppDelegate = {
+        guard let delegate = UIApplication.shared.delegate as? AppDelegate else {
+            fatalError("Unexpected error at app delegate: \(String(describing: UIApplication.shared.delegate))")
+        }
+        return delegate
+    }()
+        
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         ///Launch Counter
@@ -38,7 +46,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     ///CoreData Configuration
-    class var container: NSPersistentContainer {
+    var container: NSPersistentContainer {
         (UIApplication.shared.delegate as! AppDelegate).persistentContainer
     }
     
@@ -53,7 +61,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }()
     
     class func saveContext() {
-        let context = AppDelegate.container.viewContext
+        let context = AppDelegate.shared.container.viewContext
         if context.hasChanges {
             do {
                 try context.save()
